@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         mData = new ArrayList<String>();
         for (int i = 0; i < 20; i++) {
-            mData.add("数据" + i);
+            mData.add("" + i);
         }
 
         mMainAdapter = new MainAdapter(getApplicationContext(), mData,R.layout.main_list_item);
